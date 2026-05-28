@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Day 19 Expense Tracker</title>
+  </head>
+  <body>
+    <h1>Expense Tracker</h1>
+
+    <form id="expenseForm">
+      <input id="titleInput" type="text" placeholder="Expense title" />
+      <br /><br />
+
+      <input id="amountInput" type="number" placeholder="Amount" />
+      <br /><br />
+
+      <button type="submit">Add Expense</button>
+    </form>
+    
+    <br /><br />
+    <button id="clearBtn" type="button" >Clear All Expenses</button>
+
+    <p id="message"></p>
+
+    <h2>Expenses</h2>
+    <ul id="expenseList"></ul>
+
+    <h2 id="totalOutput">Total: 0</h2>
+
+    <script src="app.js"></script>
+  </body>
+</html>
