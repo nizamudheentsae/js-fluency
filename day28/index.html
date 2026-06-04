@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inventory Management System</title>
+  </head>
+  <body>
+    <h1>Inventory Management System</h1>
+
+    <form id="productForm">
+      <input type="text" id="nameInput" placeholder="Product Name" />
+
+      <input type="number" id="priceInput" placeholder="Price" />
+
+      <input type="text" id="categoryInput" placeholder="Category" />
+
+      <button type="submit">Add Product</button>
+    </form>
+
+    <br />
+
+    <input type="text" id="searchInput" placeholder="Search Product" />
+
+    <p id="message"></p>
+
+    <h3 id="productCount">Total Products: 0</h3>
+
+    <ul id="productList"></ul>
+
+    <button id="clearBtn">Clear All</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
